@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    /* Glassmorphism*/
+    background: rgba(245, 11, 11, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h1.name {
+    justify-content: flex-start;
+    color: #fff;
+
+
+
+}
+
+h1.name:hover {
+    color: aqua;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 33px;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: .5s;
+    border-radius: 20px;
+
+}
+
+nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2em;
+}
